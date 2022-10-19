@@ -1,0 +1,1 @@
+console.log('Static Methods and Properties')

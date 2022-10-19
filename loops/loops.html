@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <h1>Loops</h1>
+    <script src="loops.js"></script>
+</body>
+</html>
+
+1.
+const myArray = [];
+for (let i = 10; i > 0; i-=1) {
+    myArray.push(i);
+
+let i = 10;
+while (i >= 0) {
+    myArray.push(i)
+    i--;
+}
+
+console.log()
+2.
+const myArray = [];
+for (let i = 1; i > 10; i+=2) {
+    myArray.push(i);
+
+console.log()
+3.
+const myArray = [];
+for (let i = 60; i > 0; i*=3) {
+    myArray.push(i);
+
+console.log()
+4.
+const myArray = [];
+for (let i = 1; i < 7; i++) {
+    myArray.push(i);
+        for (let j - 1; j <= i; j++)
+            console.log("#")
+}
+
+let output = []
+for  (let i = 1; i<=7; i++){
+      output.push("#");
+      console.log(output.join());
+}
+
+const dogs = ["Shadow", "Max", "Durian"];
+dogs.forEach(function(dog)) {
+    console.log(dog);
+});
+
+dogs.forEach(dog => console.log(dog) + " is a silly dog.");
+
+const dogs = ["Shadow", "Max", "Durian"];
+dogs.forEach((dog, index) => console.log("Element: ", dogs, "Index: ", dogs));
+
+for(const dog of dogs){
+    console.log(dogs)
+}
